@@ -24,7 +24,6 @@ end
 group :test do
   gem 'launchy', '~> 2.4.2'
   gem 'minitest-rails-capybara', '~> 0.10.0'
-  gem 'turn', '~> 0.9.6'
   gem 'simplecov', '~> 0.8.2'
 end
 
