@@ -1,0 +1,52 @@
+body, html {
+  // height: 100%; // oddly causes overflow vertical space t/o app
+  width: 100%;
+}
+
+body.welcome {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body, h1, h2 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.intro-header {
+  color: #f8f8f8;
+  text-align: center;
+}
+
+.intro-message {
+  position: relative;
+  margin-top: 16%
+}
+
+.intro-message > h1 {
+  margin: 0;
+  font-size: 5em;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.intro-message > h2 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  margin-top: 0.2em;
+}
