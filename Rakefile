@@ -1,7 +1,7 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake/testtask'
 
-Portfolio::Application.load_tasks
+MyPortfolio::Application.load_tasks
 
 task default: 'test'
 
