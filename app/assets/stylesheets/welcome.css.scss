@@ -57,7 +57,13 @@ body, h1, h2 {
 }
 
 .pic {
-  background-color: blue;
+  background: url(headshot2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 20em;
+  height: 20em;
 }
 
 .cf {
